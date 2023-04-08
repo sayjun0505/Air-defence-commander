@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://buespoxofl6d6"]
+
+[ext_resource type="Script" path="res://scripts/AF-01.gd" id="1_suid8"]
+
+[node name="aircraft" type="Node2D"]
+script = ExtResource("1_suid8")
+air_to_air_misslie_count = 2
+turn_rate = 0.005
+energy_retention_from_turn = 6
+acceleration = 15
+rate_of_climb = 27
+cruising_speed = 1155
+cruising_altitude = 14500
+radar_cross_section = 10
+thermal_signiture = 3473

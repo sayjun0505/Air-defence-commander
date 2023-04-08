@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://ckvcl4wv3njs6"]
+
+[ext_resource type="Script" path="res://scripts/small_bird.gd" id="1_oub3h"]
+
+[node name="bird" type="Node2D"]
+script = ExtResource("1_oub3h")
+radar_cross_section = 0.5
+thermal_signiture = 308
